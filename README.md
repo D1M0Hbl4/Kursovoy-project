@@ -650,6 +650,7 @@ uint16_t dshot_packet(uint16_t value, bool telemetry) {
     8. Arduino_STM32. Roger Clark / Roger's Arduino_STM32. GitHub repository, 2020.
 
 Приложение: Таблица регистров таймеров STM32F103
+```
 Базовый адрес TIM2: 0x40000000
 Смещение	Регистр	Биты	Назначение	Значение в проекте
 0x00	TIM2_CR1	0	CEN – включение счётчика	1
