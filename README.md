@@ -353,14 +353,15 @@ void calculate_pid() {
 ```
 ## 4. Структурные схемы и диаграммы
 ### 4.1. Временная диаграмма PPM-кадра для 10 каналов
-https://raw.githubusercontent.com/D1M0Hbl4/Kursovoy-project/3faef1ff618464b83fd9731563aca0e134d61e9d/ShimSignal.jpg
+![Временная диаграмма PPM-кадра для 10 каналов {#sec:ppm-diagram}](https://raw.githubusercontent.com/D1M0Hbl4/Kursovoy-project/3faef1ff618464b83fd9731563aca0e134d61e9d/ShimSignal.jpg)
 Характеристики диаграммы:
     • Синхроимпульс (4000 мкс) длиннее любого канального импульса (максимум 2000 мкс).
     • После синхроимпульса следуют 10 канальных импульсов без пауз.
     • Период кадра: 4000 + 10 × 2000 = 24000 мкс = 24 мс.
     • Частота обновления: 41.7 Гц.
 ### 4.2. Временная диаграмма PWM-сигнала (200 Гц, 1500 мкс)
-https://raw.githubusercontent.com/D1M0Hbl4/Kursovoy-project/3faef1ff618464b83fd9731563aca0e134d61e9d/ShimSignalImp.jpg
+![Временная диаграмма PWM-сигнала (200 Гц, 1500 мкс) {#sec:pwm-diagram}](https://raw.githubusercontent.com/D1M0Hbl4/Kursovoy-project/3faef1ff618464b83fd9731563aca0e134d61e9d/ShimSignalImp.jpg
+)
 Параметры:
     • Период: 5000 мкс = 5 мс → частота 200 Гц.
     • Ширина HIGH: 1500 мкс (30% от периода).
