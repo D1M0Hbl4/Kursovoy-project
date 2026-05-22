@@ -186,7 +186,6 @@ ESC (Electronic Speed Controller) — устройство, преобразую
 
 ### 3.1. Файл `timer.ino` – настройка TIM2 и TIM4
 
-```cpp
 // Функция настройки таймеров, вызывается один раз в setup()
 void timer_setup() {
   
