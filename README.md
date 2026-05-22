@@ -366,6 +366,7 @@ https://raw.githubusercontent.com/D1M0Hbl4/Kursovoy-project/3faef1ff618464b83fd9
     • Ширина HIGH: 1500 мкс (30% от периода).
     • Ширина LOW: 3500 мкс (70% от периода).
 4.3. Блок-схема обработчика прерывания
+   
                     ┌─────────────────────────────┐
                     │    Вход в прерывание        │
                     │  (TIM2_CH1, rising edge)    │
@@ -451,7 +452,7 @@ https://raw.githubusercontent.com/D1M0Hbl4/Kursovoy-project/3faef1ff618464b83fd9
                       │
                       └─ через BEC (5В стабилизатор)
 
-5. Расчётная часть
+6. Расчётная часть
 5.1. Расчёт тактовой частоты таймера
 Формула:
 $$ f_{timer} = \frac{f_{CPU}}{PSC + 1} \qquad (5.1) $$
